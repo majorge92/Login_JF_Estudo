@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: black;
+}
+
+/*Container */
+
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    /*border: 1px solid black;*/
+    margin: auto;
+    margin-top: 220px;
+    box-shadow: 15px 15px 20px black;
+}
+
+/*Login Form*/
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: #111;
+}
+
+.form h2{
+    font-size: 2rem;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+    color: aliceblue;
+}
+
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 25px;
+    border: 1px solid #111;
+    outline: none;
+    border-radius: 20px;
+}
+
+#submit{
+    padding: 12px 30px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.form a{
+    text-decoration: none;
+    color:aliceblue;
+    margin-top: 20px;
+}
+
+.form a:hover{
+    color: #fd4e4e;
+}
+
+/* right side*/
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #111;
+    
+}
+
+.side img{
+    width: 450px;
+    height: 450px;
+
+}
+
+
+
+
